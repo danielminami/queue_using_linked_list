@@ -43,7 +43,6 @@ void enqueue(int value) {
 }
 
 int dequeue() {
-
     int value = 0;
     if (isEmpty()) {
         printf("Queue is empty");
@@ -69,6 +68,8 @@ int main() {
     enqueue(10);
     enqueue(20);
     enqueue(30);
+    printQueue();
+    dequeue();
     printQueue();
 
     exit(0);
